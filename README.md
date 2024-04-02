@@ -1,12 +1,92 @@
-- 👋 Hi, I’m @ejhay27
-- 👀 I’m interested in Making games
-- 🌱 I’m currently learning python 
-- 💞️ I’m looking to collaborate on making games
-- 📫 How to reach me Fb account 
-- 😄 Pronouns he/him
-- ⚡ Fun fact:i like you
+import pygame
+import random
 
-<!---
-ejhay27/ejhay27 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Initialize Pygame
+pygame.init()
+
+# Set up colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+# Set up the display
+WIDTH, HEIGHT = 1200, 800  # Enlarged map size
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Chanceopolis")
+
+# Load background image
+background = pygame.image.load("background_image.jpg")
+background = pygame.transform.scale(background, (WIDTH, HEIGHT))
+
+# Load music
+pygame.mixer.music.load("music.mp3")
+pygame.mixer.music.play(-1)  # -1 loops the music indefinitely
+
+# Set up fonts
+font = pygame.font.Font(None, 36)
+
+class Player:
+    def __init__(self, name, currency):
+        self.name = name
+        self.currency = currency
+        self.position = 0
+        self.properties = []
+
+    def display_properties(self):
+        if self.properties:
+            print(f"{self.name}'s properties:")
+            for prop in self.properties:
+                print(prop)
+        else:
+            print(f"{self.name} doesn't own any properties.")
+
+class Property:
+    def __init__(self, name, value, rent):
+        self.name = name
+        self.value = value
+        self.rent = rent
+
+class ChanceopolisGame:
+    def __init__(self, players):
+        self.players = players
+        self.num_players = len(players)
+        self.board_size = 50  # Enlarged map size
+        # Define starting positions for each path
+        self.start_positions = [0, 12, 24, 36]
+        self.jail_spaces = [5, 15, 25, 35, 45]  # Jail spaces on the board
+        self.event_spaces = {0: "Corner Chaos", 10: "Investment opportunity", 20: "Business venture", 30: "Unexpected expense", 40: "Legal trouble"}
+        self.property_values = {"Mansion": 100, "Apartment Complex": 50, "Restaurant": 30}
+        self.property_rents = {"Mansion": 20, "Apartment Complex": 15, "Restaurant": 10}
+        self.event_cards = ["Opportunity knocks! Gain 50 currency.", "Misfortune strikes! Lose 30 currency.", "You found a treasure! Gain 100 currency."]
+        self.card_probabilities = [0.4, 0.3, 0.3]
+        self.players_rolled = 0
+
+    # Remaining methods unchanged...
+
+    def draw_board(self):
+        # Draw the background
+        screen.blit(background, (0, 0))
+        # Draw trees along the paths
+        # Draw paths (different colors or textures)
+        # Draw starting positions for each path
+        for i, pos in enumerate(self.start_positions):
+            pygame.draw.circle(screen, GREEN, (pos, 50), 10)  # Draw starting position markers
+        pygame.display.flip()
+
+    def play(self):
+        self.draw_board()  # Draw the initial board
+        print("Welcome to Chanceopolis!")
+        for i, player in enumerate(self.players):
+            player.position = self.start_positions[i]  # Set starting position for each player
+        while True:
+            for player in self.players:
+                self.play_turn(player)
+                player.display_properties()
+
+if __name__ == "__main__":
+    num_players = 5
+    players = [Player(f"Player {i+1}", 100) for i in range(num_players)]
+    game = ChanceopolisGame(players)
+    game.play()
