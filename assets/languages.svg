@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="title desc">
+<title id="title">Public code language snapshot — ejhay27</title>
+<desc id="desc">Language bytes reported by the GitHub API, not proficiency. See docs/languages.json for the raw snapshot.</desc>
+<rect width="900" height="230" rx="8" fill="#0b1628"/>
+<g font-family="sans-serif" fill="#dce7f2"><text x="30" y="40" font-size="19">PUBLIC CODE / LANGUAGE BYTES</text>
+<rect x="30.000" y="65" width="816.377" height="12" fill="#aec8e2"/>
+<circle cx="35" cy="118" r="5" fill="#aec8e2"/><text x="53" y="123" font-size="20">TypeScript · 97.2%</text>
+<rect x="846.377" y="65" width="16.247" height="12" fill="#7193b4"/>
+<circle cx="475" cy="118" r="5" fill="#7193b4"/><text x="493" y="123" font-size="20">JavaScript · 1.9%</text>
+<rect x="862.625" y="65" width="5.200" height="12" fill="#496782"/>
+<circle cx="35" cy="161" r="5" fill="#496782"/><text x="53" y="166" font-size="20">CSS · 0.6%</text>
+<rect x="867.824" y="65" width="2.176" height="12" fill="#31475e"/>
+<circle cx="475" cy="161" r="5" fill="#31475e"/><text x="493" y="166" font-size="20">HTML · 0.3%</text>
+</g></svg>
