@@ -1,0 +1,31 @@
+{
+  "account": "ejhay27",
+  "checked_at": "2026-10-15T09:49:24.898138+00:00",
+  "method": "Sum GitHub language bytes for every public repository, including forks if present. Not contribution or skill data.",
+  "repositories": {
+    "carbon-digital-drawing-studio": {
+      "TypeScript": 906610,
+      "JavaScript": 21544,
+      "CSS": 1949,
+      "HTML": 1187
+    },
+    "ejhay27": {},
+    "Haru": {
+      "TypeScript": 87507,
+      "CSS": 2473,
+      "HTML": 849
+    },
+    "Oasis-Ai": {},
+    "Portfolio": {
+      "TypeScript": 88418,
+      "CSS": 2473,
+      "HTML": 849
+    }
+  },
+  "total_bytes_by_language": {
+    "TypeScript": 1082535,
+    "JavaScript": 21544,
+    "CSS": 6895,
+    "HTML": 2885
+  }
+}
