@@ -1,9 +1,3 @@
-"""Local structural checks for the profile README. Requires Pillow; no network.
-
-Covers: project inventory and statuses, identity strings, the three separate
-tool sections, prohibited database technologies, image/alt/local-asset hygiene,
-SVG safety, hero GIF timing/order/loop, snapshot consistency, and link policy.
-"""
 import json
 import re
 from pathlib import Path
