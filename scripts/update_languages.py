@@ -32,7 +32,7 @@ snapshot = {
 }
 (ROOT / 'docs/languages.json').write_text(json.dumps(snapshot, indent=2) + '\n')
 total = sum(languages.values())
-colors = ['#aec8e2', '#7193b4', '#496782', '#31475e']
+colors = ['#aec8e2', '#82a4c6', '#5c81a6', '#41628a', '#2e4a6c', '#22384f']
 svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="title desc">',
        '<title id="title">Public code language snapshot — ejhay27</title>',
        '<desc id="desc">Language bytes reported by the GitHub API, not proficiency. See docs/languages.json for the raw snapshot.</desc>',
