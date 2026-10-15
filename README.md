@@ -125,14 +125,11 @@ A **2026-10-15** snapshot of GitHub's language-byte data across the five public 
 
 [Live repositories](https://github.com/ejhay27?tab=repositories) · [Contribution activity](https://github.com/ejhay27?tab=overview) · [Snapshot data & method](docs/languages.json)
 
-No third-party statistics card services are embedded: nothing here can expire silently or dress an outside estimate as official GitHub data. Contribution-streak widgets are omitted because no dependable README-compatible source exists for them.
 
 <p align="center">─────&nbsp;&nbsp;✦&nbsp;&nbsp;─────</p>
 
 ## Find Me
 
 <a href="https://github.com/ejhay27"><img src="assets/logos/github.svg" width="22" height="22" alt="GitHub logo" /></a>&nbsp; [**GitHub — @ejhay27**](https://github.com/ejhay27) &nbsp;·&nbsp; [**Portfolio source**](https://github.com/ejhay27/Portfolio)
-
-The account lists no public email, website, or other social profiles, so none are invented here.
 
 <p align="center"><sub>Haru Unabara · CREATIVE | SPECIALIST | BREATHING</sub></p>
