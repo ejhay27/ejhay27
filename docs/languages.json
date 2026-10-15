@@ -1,7 +1,7 @@
 {
   "account": "ejhay27",
   "checked_at": "2026-10-15T11:18:33.649197+00:00",
-  "method": "Sum GitHub language bytes for every public repository, including forks if present. Not contribution or skill data.",
+  "method": "Sum GitHub language bytes for every public repository, Not contribution or skill data.",
   "repositories": {
     "carbon-digital-drawing-studio": {
       "TypeScript": 906610,
