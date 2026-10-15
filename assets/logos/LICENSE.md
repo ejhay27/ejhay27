@@ -1,3 +1,17 @@
+# Brand glyph provenance
+
+Glyph paths in this directory come from [Simple Icons](https://simple-icons.org),
+fetched from the npm registry on 2026-10-15: current marks from **v16.35.0**, and the
+Adobe Photoshop/Illustrator/Premiere Pro/After Effects, Visual Studio Code, and classic
+CSS3 marks from archived **v12.4.0** (removed from the project in v13+). Simple Icons is
+distributed under CC0 1.0; the full deed follows below.
+
+Brand marks remain the property of their respective owners and are used here nominatively,
+to identify tools — not to suggest endorsement. The midnight tile frames, section accents,
+and the Alight Motion lettermark are original additions made for this profile.
+
+---
+
 # CC0 1.0 Universal
 
 ## Statement of Purpose
