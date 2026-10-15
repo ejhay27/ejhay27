@@ -132,6 +132,4 @@ A **2026-10-15** snapshot of GitHub's language-byte data across the five public 
 
 <a href="https://github.com/ejhay27"><img src="assets/logos/github.svg" width="22" height="22" alt="GitHub logo" /></a>&nbsp; [**GitHub — @ejhay27**](https://github.com/ejhay27) &nbsp;·&nbsp; [**Portfolio source**](https://github.com/ejhay27/Portfolio)
 
-The account lists no public email, website, or other social profiles, so none are invented here.
-
 <p align="center"><sub>Haru Unabara · CREATIVE | SPECIALIST | BREATHING</sub></p>
