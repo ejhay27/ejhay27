@@ -1,16 +1,3 @@
-"""Build the animated hero title card (assets/hero-title-card.gif).
-
-Requires Pillow and numpy; the Cormorant Garamond variable font is bundled
-under assets/fonts/. No background photograph or illustration is used: the
-card is pure typography on a midnight-navy field.
-
-Timing model: three phrases, each held 4,550 ms and followed by nine 50 ms
-dissolve steps (450 ms), so every phrase begins exactly 5 s after the
-previous one and the whole card loops every 15 s (loop=0, infinite). All
-durations are exact GIF centiseconds and no two adjacent frames are
-identical, so nothing is merged by the encoder. The GIF autoplays wherever
-GitHub renders it; there are no controls and no scripting.
-"""
 from pathlib import Path
 
 import numpy as np
