@@ -1,4 +1,3 @@
-"""Refresh the public-only GitHub language snapshot and local SVG with gh auth."""
 import json
 import subprocess
 from datetime import datetime, timezone
