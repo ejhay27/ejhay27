@@ -23,7 +23,7 @@ Code and illustration share the same desk here. My biggest build so far is Carbo
 
 ## The Workshop
 
-Ten projects, one bench. Statuses describe where each one actually stands — work in progress, not release promises.
+Ten projects.
 
 | Project | Direction | Status |
 | :--- | :--- | :--- |
