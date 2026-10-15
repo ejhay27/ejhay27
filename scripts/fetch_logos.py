@@ -1,22 +1,3 @@
-"""Fetch brand glyphs from Simple Icons (npm registry) and build logo tiles.
-
-Sources:
-  - simple-icons v16.35.0 (current release)
-  - simple-icons v12.4.0 (archived release that still ships the Adobe and
-    Visual Studio Code marks, which were removed from v13+; the CSS3 badge
-    comes from here too so it pairs with the classic HTML5 badge)
-
-Alight Motion is not distributed by Simple Icons or any comparable open set,
-so its tile is an original "AM" lettermark, clearly typographic and not an
-imitation of the app's brand icon.
-
-Tiles: 64x64 SVG, midnight-navy field, rounded frame tinted per section
-(creative / dev / langs), glyph in brand colour. Dark glyphs are lightened
-toward silver until they clear a 2.3:1 contrast ratio against the field,
-so every mark stays visible on GitHub's light and dark themes.
-
-Standard library only. Run:  python scripts/fetch_logos.py
-"""
 import io
 import json
 import re
